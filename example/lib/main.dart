@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    _timeRange = _defaultTimeRange;
+    _timeRange = null;
   }
 
   @override
