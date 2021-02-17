@@ -1,3 +1,7 @@
+## 0.6.0 - 17/02/2021
+
+* Migrate to null-safety.
+
 ## 0.5.0 - 24/09/2020
 
 * Use devices time display format. Thanks to @matthewtsmith.

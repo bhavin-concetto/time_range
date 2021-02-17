@@ -1,5 +1,6 @@
 name: time_range_example
-description: A new Flutter application.
+description: Time Range Widget example.
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:

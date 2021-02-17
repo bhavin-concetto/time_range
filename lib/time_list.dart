@@ -30,10 +30,7 @@ class TimeList extends StatefulWidget {
     this.activeBackgroundColor,
     this.textStyle,
     this.activeTextStyle,
-  })  : assert(firstTime != null && lastTime != null),
-        assert(
-            lastTime.after(firstTime), 'lastTime not can be before firstTime'),
-        assert(onHourSelected != null),
+  })  : assert(lastTime.after(firstTime), 'lastTime not can be before firstTime'),
         super(key: key);
 
   @override

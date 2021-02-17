@@ -40,11 +40,7 @@ class TimeRange extends StatefulWidget {
     this.activeBackgroundColor,
     this.textStyle,
     this.activeTextStyle,
-  })  : assert(timeBlock != null),
-        assert(firstTime != null && lastTime != null),
-        assert(
-            lastTime.after(firstTime), 'lastTime not can be before firstTime'),
-        assert(onRangeCompleted != null),
+  })  : assert(lastTime.after(firstTime), 'lastTime not can be before firstTime'),
         super(key: key);
 
   @override
